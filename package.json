@@ -2,10 +2,15 @@
   "name": "my_filtrable_list",
   "version": "1.0.0",
   "description": "my filterable list",
+  "homepage":"https://divinedanny.github.io/my_filterable_list",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "divine daniel",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
